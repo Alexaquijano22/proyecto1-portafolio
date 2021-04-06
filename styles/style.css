@@ -57,3 +57,9 @@ main {
 .mitad-contenido {
   width: 50%;
 }
+
+@media screen and (max-width: 900px) {
+  .mitad-contenido {
+    width: 100%;
+  }
+}

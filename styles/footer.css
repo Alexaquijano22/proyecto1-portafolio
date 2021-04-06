@@ -19,10 +19,13 @@ footer {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
-  padding: 0.8em;
+  padding: 15px;
+  transition-duration: 0.3s;
+  color: #000;
 }
 
 .circulo-redes:hover {
   background-color: #982ac3;
   border: 1px solid #fff;
+  color: #fff;
 }

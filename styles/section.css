@@ -42,6 +42,7 @@
   .saludo {
     align-items: center;
     margin-bottom: 60px;
+    text-align: center;
   }
 }
 
@@ -52,6 +53,7 @@
 }
 .conocimientos {
   align-items: center;
+  text-align: center;
 }
 
 .parrafo-conocimientos {
@@ -113,6 +115,9 @@
   }
   .conocimiento {
     font-size: 18px;
+  }
+  .titulo-conocimientos {
+    text-align: center;
   }
 }
 
@@ -223,6 +228,7 @@
   margin-right: 10px;
   background: #fff;
   transition-duration: 0.3s;
+  color: #982ac3;
 }
 
 .lista-contacto {
@@ -253,6 +259,7 @@ h1 {
 }
 
 .espacio-input {
+  display: flex;
   margin-bottom: 20px;
 }
 
@@ -281,12 +288,7 @@ input:focus {
 input:valid,
 textarea:valid {
   border: 1px solid #88c459;
-  /* box-shadow: 0px 0px 7px 0px #88c459; */
 }
-
-/* input:invalid {
-  box-shadow: 0px 0px 7px 0px red;
-} */
 
 textarea {
   padding: 15px;
@@ -308,6 +310,9 @@ textarea:focus {
   .seccion-contactar {
     padding: 0;
   }
+  .espacio-input {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -327,5 +332,12 @@ textarea:focus {
 @media screen and (max-width: 500px) {
   .campos {
     flex-direction: column;
+  }
+  .lista-contacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto {
+    width: 100%;
   }
 }

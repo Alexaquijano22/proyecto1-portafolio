@@ -21,11 +21,17 @@ footer {
   border-radius: 25px;
   padding: 15px;
   transition-duration: 0.3s;
-  color: #000;
+  color: #982ac3;
+  border: 1px solid #fff;
 }
 
 .circulo-redes:hover {
   background-color: #982ac3;
-  border: 1px solid #fff;
   color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    text-align: center;
+  }
 }

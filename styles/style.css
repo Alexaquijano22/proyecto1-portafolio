@@ -23,6 +23,10 @@
   flex-direction: column;
 }
 
+.imagen {
+  width: 500px;
+}
+
 main {
   margin-top: 5.2em;
 }
@@ -61,5 +65,11 @@ main {
 @media screen and (max-width: 900px) {
   .mitad-contenido {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .imagen {
+    width: 260px;
   }
 }
